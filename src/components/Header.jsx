@@ -30,16 +30,19 @@ const Header = () => {
             <div className="relative">
                 {/* Video */}
                 <video
-
-                    src="https://res.cloudinary.com/<your-cloud-name>/video/upload/v123456/iphone17pro.mp4"
-                    controls
                     autoPlay
                     muted
-                    playsInline
                     loop
+                    playsInline
                     className="w-full rounded-2xl"
                 >
+                    {/* Cloudinary link (replace with actual uploaded URL) */}
+                    <source src="https://res.cloudinary.com/demo/video/upload/iphone17pro.mp4" type="video/mp4" />
+
+                    {/* Local video (must be inside public/assets) */}
                     <source src="/assets/iphone17pro.mp4" type="video/mp4" />
+
+                    Your browser does not support the video tag.
                 </video>
 
                 {/* Overlay Content */}
