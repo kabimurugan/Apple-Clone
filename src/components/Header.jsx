@@ -36,14 +36,10 @@ const Header = () => {
                     playsInline
                     className="w-full rounded-2xl"
                 >
-                    {/* Cloudinary link (replace with actual uploaded URL) */}
-                    <source src="https://res.cloudinary.com/demo/video/upload/iphone17pro.mp4" type="video/mp4" />
-
-                    {/* Local video (must be inside public/assets) */}
-                    <source src="/assets/iphone17pro.mp4" type="video/mp4" />
-
+                    <source src="/assets/iphone17pro1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
+
 
                 {/* Overlay Content */}
                 <div className=" flex flex-col pt-3  justify-between items-center md:relative md:h-0  md:flex-row px-8 bottom-24">

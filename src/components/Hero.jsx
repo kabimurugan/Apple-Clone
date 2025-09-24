@@ -79,7 +79,7 @@ const Hero = () => {
             <div className="p-6">
                 <h1 className="text-4xl font-bold pl-2">iPhone</h1>
                 <div className="overflow-hidden">
-                    <div className="flex w-max gap-8 animate-slide p-6 px-8 md:animate-none">
+                    <div className="flex w-max gap-20 animate-slide p-6 px-8 md:animate-none">
                         {itemsList.concat(itemsList).map((items, index) => (
                             <div key={index} className="flex-shrink-0 flex flex-col items-center gap-2 w-26">
                                 <img className="h-24" src={items.src} alt={items.alt} />
