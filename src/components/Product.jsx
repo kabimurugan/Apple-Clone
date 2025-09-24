@@ -73,7 +73,7 @@ const Product = () => {
                     {itemsList.map((items, index) => (
                         <div key={index} className="bg-white shadow-xl p-2 flex-shrink-0 w-72 rounded-xl duration-300 hover:scale-105">
                             <img className='h-80 rounded-lg' src={items.src} alt={items.alt} />
-                            <div className=''>
+                            <div className='p-3'>
                                 <p className='text-red-700 font-semibold'>{items.variantName}</p>
                                 <h2 className='text-xl font-bold'>{items.phoneName}</h2>
                                 <p className='text-sm text-gray-500'>{items.description}</p>
