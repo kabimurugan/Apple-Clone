@@ -30,7 +30,9 @@ const Header = () => {
             <div className="relative">
                 {/* Video */}
                 <video
-                src={`${import.meta.env.BASE_URL}assets/iphone17pro.mp4`}
+
+                    src="https://res.cloudinary.com/<your-cloud-name>/video/upload/v123456/iphone17pro.mp4"
+                    controls
                     autoPlay
                     muted
                     playsInline
@@ -59,7 +61,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 }
